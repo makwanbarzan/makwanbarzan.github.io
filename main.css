@@ -74,6 +74,10 @@
       padding: 10px 15% 2em 15%
     }
 
+    .customContainer {
+      width: 80%;
+    }
+
   }
   
   /* If the screen size is 400px wide or less, change some contents size */
@@ -97,6 +101,10 @@
 
     p.projects {
       padding: 0 auto;
+    }
+
+    .customContainer {
+      width: 100%;
     }
 
   }
@@ -135,7 +143,6 @@
 
 
 .customContainer {
-    width: 80%;
     margin: 0 auto;
     position: relative;
 }
