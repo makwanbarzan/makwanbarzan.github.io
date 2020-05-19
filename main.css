@@ -57,6 +57,10 @@
     p.head {
       font-size: 34px;
     }
+
+    .head-container {
+      height: 700px;
+    }
   }
   
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
@@ -72,6 +76,10 @@
 
     p.head {
       font-size: 23px;
+    }
+
+    .head-container {
+      height: 500px;
     }
   }
   
@@ -120,7 +128,6 @@
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  height: 300px;
   background-size: cover;
   position: relative;
 }
