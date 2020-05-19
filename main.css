@@ -61,7 +61,7 @@
     .head-container {
       height: 700px;
     }
-    
+
   }
   
   /* If the screen size is 400px wide or less, change some contents size */
@@ -80,7 +80,7 @@
     }
 
     .head-container {
-      height: 450px;
+      height: 500px;
     }
   }
   
