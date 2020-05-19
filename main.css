@@ -63,8 +63,8 @@
     }
   }
   
-  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-  @media screen and (max-width: 500px) {
+  /* If the screen size is 400px wide or less, change some contents size */
+  @media screen and (max-width: 400px) {
     h1.head {
       font-size: 42px;
     }
@@ -79,7 +79,7 @@
     }
 
     .head-container {
-      height: 400px;
+      height: 450px;
     }
   }
   
