@@ -148,7 +148,7 @@
     }
 
     p.underNamePr {
-      font-weight:300;
+      font-weight:400;
        font-size: 18px;
         text-align: center;
     }
@@ -388,7 +388,7 @@ body {
 }
 
 .footer-text {
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   text-align: center;
   font-weight: 200;
   font-size: 15px;
