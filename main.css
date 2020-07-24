@@ -130,6 +130,10 @@
       padding: 5px 12px;
     }
 
+    ul.buttons {
+      margin-left: 17%;
+    }
+
   }
   
   /* If the screen size is 400px wide or less, change some contents size */
@@ -180,6 +184,10 @@
       padding: 5px 12px;
     }
 
+    ul.buttons {
+      margin-left: 0 auto; 
+      margin-top: 20%;
+    }
 
   }
   
