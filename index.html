@@ -3,19 +3,14 @@
 <html>
 
   <style type="text/css">
-    .wrapper {
-        text-align: center;
-    }
-    .wrapper ul {
-        /* display: inline-block; */
-        justify-content: center;
-        display: flex;
-        margin: 0;
-        padding-top: 150px;
-        /* For IE, the outcast */
-        zoom:1;
-        /* *display: inline; */
-    }
+    ul.horizontal-list {
+	  min-width: 696px;
+	  list-style: none;
+	  padding-top: 20px;
+	}
+	ul.horizontal-list li {
+		display: inline;
+	}
 </style>
 
 <head>
@@ -85,11 +80,13 @@
     
   <!-- First section of the website -->
   <div id="about" class="customContainer" style="margin-top: 5px; padding-bottom: 30px; padding-top: 30px; font-family: 'Titillium Web'">    
-    <div class="row">
+    <div class="row col-xs-1 text-center">
       <div class="col-sm-4">
 
-        <div class="col-md-12 text-center text-md-left p-2">
-          <img src="Images/mm.jpg" class="image" style="padding: 10px; margin-left: 20px">
+        <img src="Images/mm.jpg" class="image" style="padding: 10px;">
+
+        <!-- <div class="col-md-12 text-center text-md-left p-2"> -->
+          
           <!-- <p style="font-weight: 600; font-size: 40px; margin-left: 20px">Makwan BK</p> -->
           <!-- <p style="font-weight: 300; font-size: 18px;">(Officially Makwan Barzan Kareen)</p> -->
 
@@ -113,13 +110,13 @@
             <img src="Images/facebook.png" alt="Github" style="height: 30px; width: 30px; margin-left: 15px;">
           </a> -->
 
-        </div>
+        <!-- </div> -->
       </div>
 
-      <div class="col-sm-8" style="padding-top: 40px; padding-bottom: 40px;">
+      <div class="col-sm-8" style="margin-top: 40px; margin-bottom: 40px;">
         <p class="nameHeader">Hello, I'm Makwan Barzan 👋🏻</p>
         <!-- <p class="nameHeader" style="font-weight: 400; font-size: 28px;">iOS Developer</p> -->
-        <p class="underNamePr" style="padding-top: 30px;">I'm an indie iOS Developer from Kurdistan Region (Northeren Iraq).
+        <p class="underNamePr" style="padding-top: 20px;">I'm an indie iOS Developer from Kurdistan Region (Northeren Iraq).
          <br>Studying computer science in a private institute in Kurdistan right now.<br>
          I'm also an editor, UI designer and advanced at Swift and Objective-C programming languages.
         </p>
@@ -130,27 +127,27 @@
           <a href="About.html"><button class="bttn-minimal bttn-md bttn-primary" style="float: left; padding-top: 30px;">About Me</button></a>
           <button class="bttn-minimal bttn-md bttn-primary" style="float: right; padding-top: 30px;">Resume</button>
 
-        <!-- <button class="bttn-unite bttn-md bttn-warning">Resume</button> -->
+          <ul class="buttons" style="display: flex;flex-flow: row; margin-top: 150px;">
+            <li>
+              <a href="https://www.facebook.com/m1bki0n">
+                <i class="fab fa-facebook-f icon"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/M1bki0n"><i class="fab fa-twitter icon"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/makwanbk/"><i class="fab fa-instagram icon"></i></a></li>
+            <li>
+              <a href="https://www.linkedin.com/in/makwanbk/"><i class="fab fa-linkedin-in icon"></i></a></li>
+            <li>
+              <a href="https://github.com/m1bki0n"><i class="fab fa-github icon"></i></a></li>
+          </ul> 
 
-        <ul class="wrapper" style="padding-top: 550px;">
-          <li>
-            <a href="https://www.facebook.com/m1bki0n">
-              <i class="fab fa-facebook-f icon"></i></a>
-          </li>
-          <li>
-            <a href="https://twitter.com/M1bki0n"><i class="fab fa-twitter icon"></i></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/makwanbk/"><i class="fab fa-instagram icon"></i></a></li>
-          <li>
-            <a href="https://www.linkedin.com/in/makwanbk/"><i class="fab fa-linkedin-in icon"></i></a></li>
-          <li>
-            <a href="https://github.com/m1bki0n"><i class="fab fa-github icon"></i></a></li>
-        </ul> 
+        <!-- <button class="bttn-unite bttn-md bttn-warning">Resume</button> -->
 
       </div>
 
-
+      
 
     </div>
   </div>

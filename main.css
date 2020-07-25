@@ -112,7 +112,7 @@
     p.nameHeader {
       font-weight: 600;
        font-size: 40px;
-        margin-left: 20px;
+        /* margin-left: 20px; */
          text-align: center;
     }
 
@@ -120,7 +120,7 @@
       font-weight:300;
        font-size: 22px;
         text-align: center;
-        margin-left: 20px;
+        /* margin-left: 20px; */
     }
 
     .bttn-minimal.bttn-md {
@@ -130,7 +130,7 @@
     }
 
     ul.buttons {
-      margin-left: 17%;
+      margin-left: -17%;
     }
 
   }
@@ -166,7 +166,7 @@
     p.nameHeader {
       font-weight: 600;
        font-size: 24px;
-        margin-left: 20px;
+        /* margin-left: 20px; */
          text-align:
           center;
     }
@@ -967,8 +967,8 @@ textarea {
 ul {
   display: flex;
   position: absolute;
-  top: 50%;
-  left: 50%;
+   /* top: 50%; */
+  left: 50%; 
   transform: translate(-50%, -50%);
 }
 
@@ -1039,3 +1039,4 @@ ul li:nth-child(4) a:before {
 ul li:nth-child(5) a:before {
   background: black;
 }
+
