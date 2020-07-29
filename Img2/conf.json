@@ -1,5 +1,5 @@
-{
-  "Conf" : {
+ {
+   "Conf" : [{
     "DevOpsCon London" : {
       "description" : "TEST",
       "endDate" : "2020-09-3 00:00:00",
@@ -176,5 +176,5 @@
       "ticket" : "https://www.tryswift.co/events/2020/nyc/",
       "url" : "https://www.tryswift.co/events/2020/nyc/"
     }
-  }
-}
+  }]
+ }
