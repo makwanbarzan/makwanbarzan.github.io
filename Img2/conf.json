@@ -1,5 +1,5 @@
-[
-  {
+{
+  "Conf": [{
     "description": "DevOps is fundamentally changing the IT world and sets the path for successful business transformation.\nJoin DevOpsCon to learn about the latest tools, technologies, and methodologies for building and maintaining secure, scalable, and resilient software systems.",
     "endDate": "2020-09-3 00:00:00",
     "image": "https://m1bki0n.github.io/Img2/DevOpsCon-London.jpg",
@@ -14,5 +14,5 @@
     "tag": "Dev Ops",
     "ticket": "https://devopscon.io/london/tickets-london/?go=ok",
     "url": "https://devopscon.io/london"
-  },
-]
+  }]
+}
