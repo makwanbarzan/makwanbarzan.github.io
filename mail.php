@@ -1,16 +1,15 @@
 <?php
 	
-	$name 		= $_POST['name'];
-	$email	 	= $_POST['email'];
-	$message 		= $_POST['message'];
+	if (isset($_POST['submit'])) {
+        $name = $_POST['name'];
+        $subject = $_POST['subject'];
+        $mailForm = $_POST['email'];
+        $message = $_POST['message'];
 
-	$to 			= "contact@makwanbk.com";
-	$subject 		= "Email from my website";
-	$body 			= "Information Submitted:";
+        $mailTo = "contact@makwanbk.com";
+        $headers = "Form: ".$mailForm;
 
-	$body .= "\r\n Name: " . $userName;
-	$body .= "\r\n Email: " . $userEmail;
-	$body .= "\r\n Message: " . $userMessage;
-
-	mail($to, $subject, $body);
+        mail($mailTo, $subject, $txt, $headers);
+        header("Location: index.html?mailsend");
+    }
 ?>
