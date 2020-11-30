@@ -9,6 +9,7 @@
         $mailTo = "contact@makwanbk.com";
         $headers = "Form: ".$mailForm;
 
-        mail($mailTo, $subject, $headers);
+        mail($mailTo, $subject, $txt, $headers);
         header("Location: index.html?mailsend");
     }
+?>
